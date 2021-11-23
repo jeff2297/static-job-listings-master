@@ -71,7 +71,39 @@ To see how you can add code snippets, see below:
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  /* Job listings with flex display container */
+    #data-box-container {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      background-color: hsl(180, 52%, 96%);
+      height: 60rem;
+      top: 20px
+    }
+/* within the container there is a block division */
+    #data-box-container>div {
+      display: block;
+      position: relative;
+      top: 10px;
+      left: 12rem;
+      width: 50rem;
+      height: 90px;
+      text-align: center;
+      justify-content: center;
+      
+    }
+ /* the block is arranged in grid form */
+    .data-block {  
+      display: grid;
+      text-align: center;
+      left: -10rem;
+      top: -2rem;
+      width: 55rem;
+      height: 90%;
+      box-shadow: grey 5px 4px 5px;
+      background-color: white;
+      cursor: pointer;
+    }
 }
 ```
 ```js
